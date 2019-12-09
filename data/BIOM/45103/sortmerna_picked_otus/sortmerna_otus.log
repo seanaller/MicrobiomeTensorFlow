@@ -1,0 +1,34 @@
+ Mon Feb  5 19:20:06 2018
+
+ Command: sortmerna --ref /databases/gg/13_8/rep_set/97_otus.fasta,/projects/qiita_data/working_dir/4e70ef5e-3caa-4c2b-8355-d09e67f6ad17/cr_otus/sortmerna_picked_otus/97_otus -e 1.0 --aligned /projects/qiita_data/working_dir/4e70ef5e-3caa-4c2b-8355-d09e67f6ad17/cr_otus/sortmerna_picked_otus/sortmerna_otus -a 5 --id 0.97 --coverage 0.97 --log --otu_map --reads /projects/qiita_data/tmp/SortMeRNAExactMatchFilterUJF_Rs.fasta --de_novo_otu -v --best 1 --fastx 
+ Process pid = 40235
+ Parameters summary:
+    Index: /projects/qiita_data/working_dir/4e70ef5e-3caa-4c2b-8355-d09e67f6ad17/cr_otus/sortmerna_picked_otus/97_otus
+     Seed length = 18
+     Pass 1 = 18, Pass 2 = 9, Pass 3 = 3
+     Gumbel lambda = 0.600470
+     Gumbel K = 0.327880
+     Minimal SW score based on E-value = 54
+    Number of seeds = 2
+    Edges = 4 (as integer)
+    SW match = 2
+    SW mismatch = -3
+    SW gap open penalty = 5
+    SW gap extend penalty = 2
+    SW ambiguous nucleotide = -3
+    SQ tags are not output
+    Number of threads = 5
+    Reads file = /projects/qiita_data/tmp/SortMeRNAExactMatchFilterUJF_Rs.fasta
+
+ Results:
+    Total reads = 27206
+    Total reads for de novo clustering = 3376
+    Total reads passing E-value threshold = 27121 (99.69%)
+    Total reads failing E-value threshold = 85 (0.31%)
+    Minimum read length = 150
+    Maximum read length = 150
+    Mean read length = 150
+ By database:
+    /databases/gg/13_8/rep_set/97_otus.fasta		99.69%
+ Total reads passing %id and %coverage thresholds = 23745
+ Total OTUs = 3467

@@ -1,0 +1,15 @@
+OtuPicker parameters:
+best:1
+blast:False
+coverage:0.97
+max_e_value:1.0
+max_pos:10000
+prefilter_identical_sequences:True
+similarity:0.97
+threads:5
+Reference seqs fp (to build sortmerna database): /databases/gg/13_8/rep_set/97_otus.fasta
+SortMeRNA database: /projects/qiita_data/working_dir/37b365fc-755d-4b32-b2e9-2a5ef9d2c6fa/cr_otus/sortmerna_picked_otus/97_otus
+Num OTUs: 3253
+Num failures: 1143
+Result path: /projects/qiita_data/working_dir/37b365fc-755d-4b32-b2e9-2a5ef9d2c6fa/cr_otus/sortmerna_picked_otus/seqs_otus.txt
+
